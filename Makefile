@@ -1,7 +1,9 @@
+cxxc = g++
+
 all: build
 
 build:
-	g++ -o Guesser guesser.cpp 
+	$(cxxc) -o Guesser guesser.cpp 
 
 clean:
 	rm ./Guesser
