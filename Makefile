@@ -4,4 +4,4 @@ build:
 	g++ -o Guesser guesser.cpp 
 
 clean:
-	rm Guesser
+	rm ./Guesser
